@@ -1,0 +1,285 @@
+@import url('./libs/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #15151C;
+
+}
+
+a{
+text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #18181B;
+}
+.navbar .d-flex ul li{
+  margin-right: 55px;
+}
+.navbar .logo img{
+width: 45%;
+}
+
+section{
+  padding: 50px 0;
+}
+
+.card2{
+  background: #1E293B;
+  width: 35vw;
+  height: 444px;
+  border-radius: 25px;
+  position: relative;
+}
+.blogcard{
+  background:#1E293B ;
+  color: white;
+border-radius: 15px;
+}
+.blog-sub{
+color: var(--slate-300, #CBD5E1) ;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+
+}
+.card2 .btn-danger{
+  position: absolute;
+  bottom: 3rem;
+  border-radius: 5px !important;
+  height: 2.75rem;
+  padding-left:30px ;
+  padding-right: 30px;
+  border: #FF242A;
+}
+.card2:not(:last-child){
+  margin-right: 20px !important;
+}
+
+.card2 hr{
+  width: 200px;
+  height: 7px;
+  opacity: 1;
+  border: none;
+}
+
+.footer{
+  border-top: 2px solid #D9D9D9;
+}
+.text-danger, .bg-danger{
+  color: #FF242A !important;
+}
+.btn-danger{
+  background-color: #FF242A !important;
+  border-radius: 5px;
+}
+.banner-text{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.banner-text h1{
+font-size: 50px;
+}
+.graphics_500 img{
+position: absolute;
+top: -40px;
+width: 110%;
+}
+.wallet{
+  background-color:#FF242A ;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  width: 132px;
+  height: 40px;
+}
+.campaign-btn{
+  background-color:#FF242A ;
+  border-radius: 5px;
+  width: 162px;
+}
+.donate-btn{
+  color: #FF242A;
+  border-radius: 5px;
+  border: 1px solid #FF242A;
+  width: 162px;
+}
+.image img{
+  width: 100%;
+  margin-left: -22px;
+
+}
+.subscribe, .subscribe input {
+  background: #1E293B;
+
+}
+input::placeholder{
+  color: #ffffff !important;
+  font-weight: 200;
+letter-spacing: 0.13;
+padding-left: 10px;
+}
+.subscribe .btn-danger{
+border-width: 5px;
+border-color: #1E293B;
+}
+.cards{
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+position: relative;
+}
+
+.icon{
+  background-color: #2666E1;
+  border: 2px white solid;
+  position: absolute !important;
+  bottom: -32px;
+  left: 69px;
+  border-radius: 50%;
+  height:53.6px ;
+  width: 53.6px;
+}
+svg{
+  position: absolute;
+ bottom: 17.5px;
+left: 16.5px;
+}
+.blogImg{
+  width: 85vw;
+
+}
+.blogImg img{
+  width: 100%;
+  height: 94vh !important;
+  border-radius: 20px;
+}
+.content p{
+  font-size: 24px;
+  font-weight: 300;
+}
+.content li{
+  font-size: 20px;
+}
+.content a{
+  text-decoration: underline;
+}
+.sub-text{
+  color: #DDD;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.values{
+  color: #FFF;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; }
+  .donate-now-btn{
+width: 279px;
+height: 62px;
+border-radius: 4px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background: #FF242A;
+color: #FFF;
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+  }
+  .progress-bar{
+    background-color: #D9D9D9;
+    height: 6px;
+    width: 279px;
+  }
+  .progress-bar-filled{
+    background-color: #FF242A;
+    width: 30%;
+    height: 6px;
+  }
+  .btn-blue{
+    color: #fff;
+    width: 110px;
+height: 42px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #395B98;
+   }
+  .btn-skyblue{
+    color: #fff;
+    width: 110px;
+height: 42px;
+border-radius: 4px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background: #1BA5E2;
+   }
+  .btn-green{
+    color: #fff;
+    width: 110px;
+height: 42px;
+border-radius: 4px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background: #1DAA97;
+   }
+   .tabs{
+    background: rgba(231, 234, 237, 0.10);
+
+   }
+   .tabs .nav-link {
+    width: 175.695px !important;
+    height: 45px !important;
+    color: #D9D9D9;
+   border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+   }
+   .tabs .active{
+    background-color: #FF242A !important;
+    color: white !important;
+   }
+   .nav-item .fs-small{
+    display: inline-block;
+    width: 30px;
+font-size: 14px;
+padding: 5px;
+    border-radius: 16.2px;
+    background: rgba(255, 255, 255, 0.10);
+   }
+   .story p{
+    color: #D9D9D9;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 20px;
+
+   }
+   .story h2{
+    font-weight: 300px !important;
+    font-size: 36px;
+    margin-bottom: 30px;
+   }
+   .support{
+    background-color: rgba(221, 221, 221, 0.10);
+    color: white;
+    border-radius: 14px;
+    margin-top: 110px;
+   }
+   .carousel-img img{
+    width: 90% ;
+
+   }
+   .active-link , .active {
+    color: #FF242A !important; 
+    background-color: transparent !important;
+  }
+ 
